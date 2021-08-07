@@ -6,10 +6,11 @@ body {
 
 header {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+    line-height: 15px;
 }
 
-main {
+.startBttn {
     align-items: center;
     text-align: center;
 }
@@ -27,7 +28,21 @@ button {
     transition-duration: 0.15s;
     transition-property: background-color;
     transition-timing-function: linear;
-    margin-top: 0.6em;
-
+    margin-top: 4%;
 }
 
+.timer {
+    text-align: right;
+    padding-right: 250px;
+}
+
+.quizBox {
+    width:fit-content;
+    background-color:rgb(78, 128, 103);
+    border-radius: 20px;
+    text-align:left;
+}
+
+section .quizBox {
+    text-align: center;
+}
