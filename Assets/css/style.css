@@ -37,12 +37,11 @@ button {
 }
 
 .quizBox {
-    width:fit-content;
+    width:666px;
     background-color:rgb(78, 128, 103);
     border-radius: 20px;
-    text-align:left;
+    text-align:center;
+    margin-top: 50px;
+    margin-left: 300px;
 }
 
-section .quizBox {
-    text-align: center;
-}
