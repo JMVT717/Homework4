@@ -1,7 +1,11 @@
 let startBttn = document.querySelector("#start-quiz");
 var timeEl = document.querySelector(".timer-sec");
-let box = document.querySelector(".quizBox");
-let option = document.querySelector(".options")
+let box = document.querySelector(".quizBox1");
+let box = document.querySelector(".quizBox2");
+let box = document.querySelector(".quizBox3");
+let box = document.querySelector(".quizBox4");
+let box = document.querySelector(".quizBox5");
+let option = document.querySelector(".option")
 
 var secondsLeft = 180;
 

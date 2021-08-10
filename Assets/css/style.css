@@ -36,7 +36,7 @@ button {
     padding-right: 250px;
 }
 
-.quizBox {
+.quizBoxes {
     display:none;
     position: relative;
     width:555px;
@@ -52,11 +52,13 @@ button {
 display: block;
 }
 
-section .que-text {
+
+section .question {
     padding: 20px;
     display: block;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 
 section .optionList {
@@ -72,10 +74,9 @@ section .optionList .option {
     border: 1px solid wheat;
     border-radius: 50px;
     padding: 8px 25px;
-    /* padding-left: 250px; */
     margin-bottom: 15px;
     /* display: flex; */
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     cursor: pointer;
     text-align: center;
@@ -93,11 +94,11 @@ section .optionList .option:hover {
 }
 
 .optionList .option .icon {
-    /* height: 26px;
-    width: 26px; */
+    width: 5px;
     border: 2px solid transparent;
     border-radius: 50px;
     text-align: center;
+    display: none;
 }
 
 .optionList .option .icon.tick {
