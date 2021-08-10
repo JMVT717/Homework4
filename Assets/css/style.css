@@ -37,11 +37,80 @@ button {
 }
 
 .quizBox {
-    width:666px;
+    display:none;
+    position: relative;
+    width:555px;
     background-color:rgb(78, 128, 103);
     border-radius: 20px;
     text-align:center;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 350px;
+    box-shadow: slategray;
 }
+
+section .que-text {
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section .optionList {
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    width: 250px;
+    padding-left: 150px;
+}
+
+section .optionList .option {
+    background: slategrey;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    padding: 8px 25px;
+    /* padding-left: 250px; */
+    margin-bottom: 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+section .optionList .option:hover {
+    color: steelblue;
+    background: #001b44;
+    border-color: wheat;
+}
+
+.optionList .option:last-child {
+    margin-bottom: 0px;
+}
+
+.optionList .option .icon {
+    /* height: 26px;
+    width: 26px; */
+    border: 2px solid transparent;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.optionList .option .icon.tick {
+    border-color: green;
+    color: green;
+}
+
+.optionList .option .icon.cross {
+    border-color: rgb(170, 30, 30);
+    color: rgb(170, 30, 30);
+}
+
+section .totalQue {
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
 
