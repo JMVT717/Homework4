@@ -48,6 +48,10 @@ button {
     box-shadow: slategray;
 }
 
+.show {
+display: block;
+}
+
 section .que-text {
     padding: 20px;
     display: block;
