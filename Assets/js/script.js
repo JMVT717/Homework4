@@ -1,21 +1,29 @@
 let startBttn = document.querySelector("#start-quiz");
 var timeEl = document.querySelector(".timer-sec");
-let box = document.querySelector(".quizBox1");
-let box = document.querySelector(".quizBox2");
-let box = document.querySelector(".quizBox3");
-let box = document.querySelector(".quizBox4");
-let box = document.querySelector(".quizBox5");
-let option = document.querySelector(".option")
+let box = document.querySelector(".quizBox");
+
+// let optA = document.querySelector("#optionA");
+// let optB = document.querySelector("#optionB");
+// let optC = document.querySelector("#optionC");
+
+// let answerChoice = [optionA, optionB, optionC];
+
+// let nxtQue;
+
 
 var secondsLeft = 180;
 
-function start (){ //start button
+
+
+//start button
+function start (){ 
     box.classList.add("show")
     setTime()
-
+    startBttn.classList.add("none")
 }
 startBttn.addEventListener("click", start);
 
+// Time function
 function setTime() {
     var timerInterval = setInterval(function() {
       secondsLeft--;
@@ -28,8 +36,4 @@ function setTime() {
       }
   
     }, 1000);
-  }
-
-function answer () {
-
 }
